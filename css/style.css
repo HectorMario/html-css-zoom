@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+}
 
 img{
     max-width: 100%;
@@ -48,7 +51,21 @@ span{
 
 /* footer */
 
+ul{
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+
+}
+
+p{
+    display: flex;
+    font-size: 1.5vw;
+    flex-wrap: nowrap;
+}
+
 footer{
+    display: flex;
     position: relative;
     background-color: #222222;
     width: 100%;
@@ -57,16 +74,46 @@ footer{
 
 
 .stop{
-    border: solid red 1px;
+    display: flex;
     width: 25%;
     height: 100%;
+    align-items: center;
+    gap: 3%;
 }
 
 .mid{
-    width: 50%;
-    border: solid red 1px;
-    height: 20px;
+    display: flex;
+    width: 50vw;
+    height: 100%;
+    justify-content: center;
 }
 
+.end{
+    display: flex;
+    width: 25%;
+    height: 100%;
+    justify-content: flex-end;
+}
+.mute{
+    width: 25%;
+}
+.icon{
+    color: #fff;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
 
+.center{
+    display: flex;
+    gap: 10px;
+    
+}
 
+button{
+    background-color:#222222;
+    border: none;
+    color: #fff;
+}
